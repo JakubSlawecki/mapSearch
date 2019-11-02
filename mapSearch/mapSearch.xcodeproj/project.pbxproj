@@ -10,6 +10,20 @@
 		C6220A7A236DC14B00C2206E /* MainCreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A79236DC14B00C2206E /* MainCreateRequestViewController.swift */; };
 		C6220A7C236DC19F00C2206E /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A7B236DC19F00C2206E /* SlideView.swift */; };
 		C6220A80236DC4DC00C2206E /* XIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A7F236DC4DC00C2206E /* XIBViewController.swift */; };
+		C6220A82236DC96400C2206E /* MainCreateRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A81236DC96400C2206E /* MainCreateRequestViewModel.swift */; };
+		C6220A86236DC9F900C2206E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A84236DC9F900C2206E /* MapViewController.swift */; };
+		C6220A87236DC9F900C2206E /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6220A85236DC9F900C2206E /* MapViewController.xib */; };
+		C6220A8A236DCA3400C2206E /* SearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A88236DCA3400C2206E /* SearchAddressViewController.swift */; };
+		C6220A8B236DCA3400C2206E /* SearchAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6220A89236DCA3400C2206E /* SearchAddressViewController.xib */; };
+		C6220A8E236DCA7300C2206E /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A8C236DCA7300C2206E /* CreateRequestViewController.swift */; };
+		C6220A8F236DCA7300C2206E /* CreateRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6220A8D236DCA7300C2206E /* CreateRequestViewController.xib */; };
+		C6220A91236DCAEE00C2206E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A90236DCAEE00C2206E /* MapViewModel.swift */; };
+		C6220A93236DCB0800C2206E /* SearchAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A92236DCB0800C2206E /* SearchAddressViewModel.swift */; };
+		C6220A95236DCB1E00C2206E /* CreateRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A94236DCB1E00C2206E /* CreateRequestViewModel.swift */; };
+		C6220A97236DCBD900C2206E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A96236DCBD900C2206E /* Address.swift */; };
+		C6220A99236DCC5F00C2206E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A98236DCC5F00C2206E /* Contact.swift */; };
+		C6220A9B236DCC7F00C2206E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A9A236DCC7F00C2206E /* Location.swift */; };
+		C6220A9D236DCCA800C2206E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220A9C236DCCA800C2206E /* Request.swift */; };
 		C6D44DCE236DA9B900077FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D44DCD236DA9B900077FBF /* AppDelegate.swift */; };
 		C6D44DD0236DA9B900077FBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D44DCF236DA9B900077FBF /* SceneDelegate.swift */; };
 		C6D44DD5236DA9B900077FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D44DD3236DA9B900077FBF /* Main.storyboard */; };
@@ -21,6 +35,20 @@
 		C6220A79236DC14B00C2206E /* MainCreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCreateRequestViewController.swift; sourceTree = "<group>"; };
 		C6220A7B236DC19F00C2206E /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 		C6220A7F236DC4DC00C2206E /* XIBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBViewController.swift; sourceTree = "<group>"; };
+		C6220A81236DC96400C2206E /* MainCreateRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCreateRequestViewModel.swift; sourceTree = "<group>"; };
+		C6220A84236DC9F900C2206E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C6220A85236DC9F900C2206E /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		C6220A88236DCA3400C2206E /* SearchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressViewController.swift; sourceTree = "<group>"; };
+		C6220A89236DCA3400C2206E /* SearchAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchAddressViewController.xib; sourceTree = "<group>"; };
+		C6220A8C236DCA7300C2206E /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
+		C6220A8D236DCA7300C2206E /* CreateRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateRequestViewController.xib; sourceTree = "<group>"; };
+		C6220A90236DCAEE00C2206E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C6220A92236DCB0800C2206E /* SearchAddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressViewModel.swift; sourceTree = "<group>"; };
+		C6220A94236DCB1E00C2206E /* CreateRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewModel.swift; sourceTree = "<group>"; };
+		C6220A96236DCBD900C2206E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C6220A98236DCC5F00C2206E /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C6220A9A236DCC7F00C2206E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C6220A9C236DCCA800C2206E /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		C6D44DCA236DA9B900077FBF /* mapSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D44DCD236DA9B900077FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D44DCF236DA9B900077FBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +74,9 @@
 			children = (
 				C6220A7B236DC19F00C2206E /* SlideView.swift */,
 				C6D44DD3236DA9B900077FBF /* Main.storyboard */,
+				C6220A85236DC9F900C2206E /* MapViewController.xib */,
+				C6220A89236DCA3400C2206E /* SearchAddressViewController.xib */,
+				C6220A8D236DCA7300C2206E /* CreateRequestViewController.xib */,
 				C6D44DD8236DA9BA00077FBF /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -55,8 +86,22 @@
 			isa = PBXGroup;
 			children = (
 				C6220A79236DC14B00C2206E /* MainCreateRequestViewController.swift */,
+				C6220A84236DC9F900C2206E /* MapViewController.swift */,
+				C6220A88236DCA3400C2206E /* SearchAddressViewController.swift */,
+				C6220A8C236DCA7300C2206E /* CreateRequestViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6220A83236DC96900C2206E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C6220A81236DC96400C2206E /* MainCreateRequestViewModel.swift */,
+				C6220A90236DCAEE00C2206E /* MapViewModel.swift */,
+				C6220A92236DCB0800C2206E /* SearchAddressViewModel.swift */,
+				C6220A94236DCB1E00C2206E /* CreateRequestViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C6D44DC1236DA9B900077FBF = {
@@ -79,10 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				C6220A7E236DC1BA00C2206E /* Controller */,
+				C6220A83236DC96900C2206E /* ViewModel */,
 				C6220A7D236DC1A800C2206E /* View */,
 				C6D44DD6236DA9BA00077FBF /* Assets.xcassets */,
 				C6D44DDB236DA9BA00077FBF /* Info.plist */,
 				C6D44DCF236DA9B900077FBF /* SceneDelegate.swift */,
+				C6220A96236DCBD900C2206E /* Address.swift */,
+				C6220A98236DCC5F00C2206E /* Contact.swift */,
+				C6220A9A236DCC7F00C2206E /* Location.swift */,
+				C6220A9C236DCCA800C2206E /* Request.swift */,
 				C6D44DCD236DA9B900077FBF /* AppDelegate.swift */,
 				C6220A7F236DC4DC00C2206E /* XIBViewController.swift */,
 			);
@@ -149,7 +199,10 @@
 			files = (
 				C6D44DDA236DA9BA00077FBF /* LaunchScreen.storyboard in Resources */,
 				C6D44DD7236DA9BA00077FBF /* Assets.xcassets in Resources */,
+				C6220A8F236DCA7300C2206E /* CreateRequestViewController.xib in Resources */,
+				C6220A8B236DCA3400C2206E /* SearchAddressViewController.xib in Resources */,
 				C6D44DD5236DA9B900077FBF /* Main.storyboard in Resources */,
+				C6220A87236DC9F900C2206E /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,11 +213,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6220A82236DC96400C2206E /* MainCreateRequestViewModel.swift in Sources */,
+				C6220A9D236DCCA800C2206E /* Request.swift in Sources */,
+				C6220A91236DCAEE00C2206E /* MapViewModel.swift in Sources */,
+				C6220A97236DCBD900C2206E /* Address.swift in Sources */,
 				C6220A80236DC4DC00C2206E /* XIBViewController.swift in Sources */,
+				C6220A93236DCB0800C2206E /* SearchAddressViewModel.swift in Sources */,
 				C6220A7A236DC14B00C2206E /* MainCreateRequestViewController.swift in Sources */,
+				C6220A99236DCC5F00C2206E /* Contact.swift in Sources */,
+				C6220A9B236DCC7F00C2206E /* Location.swift in Sources */,
 				C6D44DCE236DA9B900077FBF /* AppDelegate.swift in Sources */,
 				C6220A7C236DC19F00C2206E /* SlideView.swift in Sources */,
+				C6220A8A236DCA3400C2206E /* SearchAddressViewController.swift in Sources */,
+				C6220A95236DCB1E00C2206E /* CreateRequestViewModel.swift in Sources */,
+				C6220A8E236DCA7300C2206E /* CreateRequestViewController.swift in Sources */,
 				C6D44DD0236DA9B900077FBF /* SceneDelegate.swift in Sources */,
+				C6220A86236DC9F900C2206E /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

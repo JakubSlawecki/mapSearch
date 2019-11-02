@@ -25,7 +25,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black-gradient-background" translatesAutoresizingMaskIntoConstraints="NO" id="AhA-mN-mGE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="577.5"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6BS-AU-QCs" userLabel="searchViewContainerView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6BS-AU-QCs" userLabel="searchViewContainerView" customClass="SlideView" customModule="mapSearch" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="562.5" width="414" height="833.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>

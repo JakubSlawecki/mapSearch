@@ -14,7 +14,7 @@ class MainCreateRequestViewController: UIViewController {
     
     @IBOutlet weak var mapContainerView: UIView!
     @IBOutlet weak var mapContainerViewBottomConstraint: NSLayoutConstraint!
-    @IBOutlet weak var searchViewContainerView: UIView!
+    @IBOutlet weak var searchViewContainerView: SlideView!
     @IBOutlet weak var searchViewContainerViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var ticketCreationContainerView: SlideView!
     @IBOutlet weak var ticketCreationContainerViewBottomConstraint: NSLayoutConstraint!
