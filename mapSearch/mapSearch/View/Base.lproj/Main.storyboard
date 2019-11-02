@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Create Request View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainCreateRequestViewController" customModule="mapSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PZL-R1-4Tr"/>
+                        <viewControllerLayoutGuide type="bottom" id="ibJ-pe-O6G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nuz-z5-DsH" userLabel="mapContainerView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="796"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black-gradient-background" translatesAutoresizingMaskIntoConstraints="NO" id="AhA-mN-mGE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="577.5"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6BS-AU-QCs" userLabel="searchViewContainerView">
+                                <rect key="frame" x="0.0" y="562.5" width="414" height="833.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvC-90-ssT" userLabel="myLocationButton">
+                                <rect key="frame" x="344" y="492.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Utv-2A-F47"/>
+                                    <constraint firstAttribute="height" constant="50" id="jpw-s0-XOr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="My-location-1"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xvC-90-ssT" secondAttribute="trailing" constant="20" id="2zg-MQ-IrI"/>
+                            <constraint firstItem="Nuz-z5-DsH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="47I-qA-vXO"/>
+                            <constraint firstItem="AhA-mN-mGE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CGR-w6-YVn"/>
+                            <constraint firstItem="Nuz-z5-DsH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="D4P-04-A9u"/>
+                            <constraint firstAttribute="trailing" secondItem="AhA-mN-mGE" secondAttribute="trailing" id="D4j-F7-aiJ"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6BS-AU-QCs" secondAttribute="top" constant="250" id="Ksg-Jf-lXj"/>
+                            <constraint firstItem="AhA-mN-mGE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OjX-e3-apR"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="top" secondItem="xvC-90-ssT" secondAttribute="bottom" constant="20" id="UfY-D4-m2z"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" priority="750" constant="500" id="bjb-B3-mQo"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.93" id="d43-xN-lun"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="nCq-CT-FHY"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="r8U-HS-ZcF"/>
+                            <constraint firstItem="6BS-AU-QCs" firstAttribute="top" secondItem="AhA-mN-mGE" secondAttribute="bottom" constant="-15" id="s9R-ck-qOQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Nuz-z5-DsH" secondAttribute="bottom" priority="750" constant="100" id="xZA-Sw-D80"/>
+                            <constraint firstItem="Nuz-z5-DsH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yBD-ez-dfi"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="dimmingImageView" destination="AhA-mN-mGE" id="DQW-AX-SRg"/>
+                        <outlet property="mapContainerView" destination="Nuz-z5-DsH" id="qzr-L0-ahC"/>
+                        <outlet property="mapContainerViewBottomConstraint" destination="xZA-Sw-D80" id="ttG-Qo-Dlx"/>
+                        <outlet property="myLocationButton" destination="xvC-90-ssT" id="Opx-s0-4gv"/>
+                        <outlet property="searchViewContainerView" destination="6BS-AU-QCs" id="89q-41-VPn"/>
+                        <outlet property="searchViewContainerViewBottomConstraint" destination="bjb-B3-mQo" id="sgB-bq-W2t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="My-location-1" width="96" height="96"/>
+        <image name="black-gradient-background" width="533" height="533"/>
+    </resources>
+</document>
